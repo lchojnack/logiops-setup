@@ -13,33 +13,33 @@ Custom configuration for Logitech MX Master 3 wireless mouse using [logiops](htt
 
 All buttons support gesture-based controls (hold and swipe in different directions).
 
+#### Top Button (0xc4)
+- **Click:** Toggle SmartShift
+- **Up:** Meta+L
+- **Down:** Meta+K
+- **Left:** Meta+J
+- **Right:** Meta+;
+
 #### Forward Button (0x56)
 - **Click:** Forward navigation
-- **Down:** Alt+Tab (window switcher)
-- **Up:** Meta (activities overview)
-- **Left:** Alt+O (workspace left)
-- **Right:** Alt+P (workspace right)
+- **Up:** Alt+Tab
+- **Down:** Alt+Tab
+- **Left:** Alt+J
+- **Right:** Alt+;
 
 #### Back Button (0x53)
 - **Click:** Back navigation
-- **Right:** Ctrl+Alt+P (move window right)
-- **Left:** Ctrl+Alt+O (move window left)
-- **Up:** Meta+Right (snap window right)
-- **Down:** Meta+Left (snap window left)
+- **Up:** Meta+Alt+L
+- **Down:** Meta+Alt+K
+- **Left:** Ctrl+Alt+J
+- **Right:** Ctrl+Alt+;
 
 #### Gesture Button (0xc3)
 - **Click:** Play/Pause
 - **Up:** Volume up
 - **Down:** Volume down
-- **Right:** Next song
 - **Left:** Previous song
-
-#### Top Button (0xc4)
-- **Click:** Toggle SmartShift
-- **Up:** Meta+Alt+Right (workspace right)
-- **Down:** Meta+Alt+Left (workspace left)
-- **Right:** Meta+Alt+P (move window to workspace right)
-- **Left:** Meta+Alt+O (move window to workspace left)
+- **Right:** Next song
 
 ## Requirements
 
