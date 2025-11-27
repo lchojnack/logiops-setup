@@ -1,0 +1,105 @@
+# Logiops Configuration for MX Master 3
+
+Custom configuration for Logitech MX Master 3 wireless mouse using [logiops](https://github.com/PixlOne/logiops).
+
+## Features
+
+### Basic Settings
+- **DPI:** 3000 (max 4000)
+- **SmartShift:** Enabled with threshold 15
+- **Hi-res scroll:** Enabled
+
+### Button Mappings
+
+All buttons support gesture-based controls (hold and swipe in different directions).
+
+#### Forward Button (0x56)
+- **Click:** Forward navigation
+- **Down:** Alt+Tab (window switcher)
+- **Up:** Meta (activities overview)
+- **Left:** Alt+O (workspace left)
+- **Right:** Alt+P (workspace right)
+
+#### Back Button (0x53)
+- **Click:** Back navigation
+- **Right:** Ctrl+Alt+P (move window right)
+- **Left:** Ctrl+Alt+O (move window left)
+- **Up:** Meta+Right (snap window right)
+- **Down:** Meta+Left (snap window left)
+
+#### Gesture Button (0xc3)
+- **Click:** Play/Pause
+- **Up:** Volume up
+- **Down:** Volume down
+- **Right:** Next song
+- **Left:** Previous song
+
+#### Top Button (0xc4)
+- **Click:** Toggle SmartShift
+- **Up:** Meta+Alt+Right (workspace right)
+- **Down:** Meta+Alt+Left (workspace left)
+- **Right:** Meta+Alt+P (move window to workspace right)
+- **Left:** Meta+Alt+O (move window to workspace left)
+
+## Requirements
+
+- Linux system with systemd
+- Logitech MX Master 3 mouse
+- logid binary installed at `/usr/local/bin/logid`
+
+**Note:** This package includes the systemd service file, so you only need the logid binary installed, not a full logiops package installation.
+
+## Installation
+
+Run the install script with sudo:
+
+```bash
+sudo ./install.sh
+```
+
+This will:
+- Backup existing `/etc/logid.cfg` (if present)
+- Copy `logid.service` to `/lib/systemd/system/`
+- Reload systemd daemon
+- Copy the new configuration to `/etc/logid.cfg`
+- Enable the service (auto-start on boot)
+- Restart the logid service
+- Verify the service is running
+
+## Uninstallation
+
+Run the uninstall script with sudo:
+
+```bash
+sudo ./uninstall.sh
+```
+
+This will:
+- Stop and disable the logid service
+- Remove the service file
+- Remove `/etc/logid.cfg` and backup
+- Clean up all configuration
+
+## Files
+
+- `logid.cfg` - Mouse configuration file
+- `logid.service` - Systemd service file
+- `install.sh` - Installation script
+- `uninstall.sh` - Uninstallation script
+- `README.md` - This file
+
+## Troubleshooting
+
+Check service status:
+```bash
+sudo systemctl status logid
+```
+
+View service logs:
+```bash
+journalctl -u logid -f
+```
+
+## Configuration Source
+
+Based on custom gist configuration optimized for workspace and window management on Linux desktop environments.
