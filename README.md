@@ -5,7 +5,7 @@ Custom configuration for Logitech MX Master 3 wireless mouse using [logiops](htt
 ## Features
 
 ### Basic Settings
-- **DPI:** 3000 (max 4000)
+- **DPI:** 4000 (max 4000)
 - **SmartShift:** Enabled with threshold 15
 - **Hi-res scroll:** Enabled
 
@@ -15,21 +15,21 @@ All buttons support gesture-based controls (hold and swipe in different directio
 
 #### Top Button (0xc4)
 - **Click:** Toggle SmartShift
-- **Up:** Meta+L
-- **Down:** Meta+K
-- **Left:** Meta+J
-- **Right:** Meta+;
+- **Up:** Meta+Up
+- **Down:** Meta+Down
+- **Left:** Meta+Left
+- **Right:** Meta+Right
 
 #### Forward Button (0x56)
-- **Click:** Forward navigation
-- **Up:** Alt+Tab
-- **Down:** Alt+Tab
+- **Click:** Enter
+- **Up:** Arrow Up
+- **Down:** Arrow Down
 - **Left:** Alt+J
 - **Right:** Alt+;
 
 #### Back Button (0x53)
 - **Click:** Back navigation
-- **Up:** Meta+Alt+L
+- **Up:** Meta+Page Up
 - **Down:** Meta+Alt+K
 - **Left:** Ctrl+Alt+J
 - **Right:** Ctrl+Alt+;
