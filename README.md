@@ -25,14 +25,14 @@ All buttons support gesture-based controls (hold and swipe in different directio
 - **Up:** Arrow Up
 - **Down:** Arrow Down
 - **Left:** Alt+J
-- **Right:** Alt+;
+- **Right:** Alt+L
 
 #### Back Button (0x53)
 - **Click:** Back navigation
 - **Up:** Meta+Page Up
 - **Down:** Meta+Alt+K
 - **Left:** Ctrl+Alt+J
-- **Right:** Ctrl+Alt+;
+- **Right:** Ctrl+Alt+L
 
 #### Gesture Button (0xc3)
 - **Click:** Play/Pause
