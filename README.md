@@ -15,31 +15,31 @@ All buttons support gesture-based controls (hold and swipe in different directio
 
 #### Top Button (0xc4)
 - **Click:** Toggle SmartShift
-- **Up:** Meta+Up
-- **Down:** Meta+Down
-- **Left:** Meta+Left
-- **Right:** Meta+Right
+- **Up:** Meta+Up - Quick Tile Window to the Top
+- **Down:** Meta+Down - Quick Tile Window to the Bottom
+- **Left:** Meta+Left - Quick Tile Window to the Left
+- **Right:** Meta+Right - Quick Tile Window to the Right
 
 #### Forward Button (0x56)
 - **Click:** Enter
 - **Up:** Arrow Up
 - **Down:** Arrow Down
-- **Left:** Alt+J
-- **Right:** Alt+L
+- **Left:** Alt+H - Switch to Previous Desktop
+- **Right:** Alt+L - Switch to Next Desktop
 
 #### Back Button (0x53)
 - **Click:** Back navigation
-- **Up:** Meta+Page Up
-- **Down:** Meta+Alt+K
-- **Left:** Ctrl+Alt+J
-- **Right:** Ctrl+Alt+L
+- **Up:** Meta+Page Up - Maximise Window
+- **Down:** Meta+Alt+Page Up - Add Virtual Desktop
+- **Left:** Ctrl+Alt+H - Window to Previous Desktop
+- **Right:** Ctrl+Alt+L - Window to Next Desktop
 
 #### Gesture Button (0xc3)
-- **Click:** Play/Pause
+- **Click:** Play/Pause media
 - **Up:** Volume up
 - **Down:** Volume down
-- **Left:** Previous song
-- **Right:** Next song
+- **Left:** Previous track
+- **Right:** Next track
 
 ## Requirements
 
