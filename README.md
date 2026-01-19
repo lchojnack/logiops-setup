@@ -14,7 +14,7 @@ Custom configuration for Logitech MX Master 3 wireless mouse using [logiops](htt
 All buttons support gesture-based controls (hold and swipe in different directions).
 
 #### Top Button (0xc4)
-- **Click:** Toggle SmartShift
+- **Click:** Meta+Page Up - Maximise Window
 - **Up:** Meta+Up - Quick Tile Window to the Top
 - **Down:** Meta+Down - Quick Tile Window to the Bottom
 - **Left:** Meta+Left - Quick Tile Window to the Left
@@ -29,8 +29,8 @@ All buttons support gesture-based controls (hold and swipe in different directio
 
 #### Back Button (0x53)
 - **Click:** Back navigation
-- **Up:** Meta+Page Up - Maximise Window
-- **Down:** Meta+Alt+Page Up - Add Virtual Desktop
+- **Up:** Meta+Alt+Page Up - Add Virtual Desktop
+- **Down:** Meta+Alt+Page Down - Remove Virtual Desktop
 - **Left:** Ctrl+Alt+H - Window to Previous Desktop
 - **Right:** Ctrl+Alt+L - Window to Next Desktop
 
