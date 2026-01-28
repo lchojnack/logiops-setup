@@ -24,15 +24,15 @@ All buttons support gesture-based controls (hold and swipe in different directio
 - **Click:** Enter
 - **Up:** Arrow Up
 - **Down:** Arrow Down
-- **Left:** Alt+H - Switch to Previous Desktop
-- **Right:** Alt+L - Switch to Next Desktop
+- **Left:** Meta+Alt+H - switch to prev desktop
+- **Right:** Meta+Alt+L - switch to next desktop
 
 #### Back Button (0x53)
 - **Click:** Back navigation
-- **Up:** Meta+Alt+Page Up - Add Virtual Desktop
-- **Down:** Meta+Alt+Page Down - Remove Virtual Desktop
-- **Left:** Ctrl+Alt+H - Window to Previous Desktop
-- **Right:** Ctrl+Alt+L - Window to Next Desktop
+- **Up:** Meta+Alt+K - Add Virtual Desktop
+- **Down:** Meta+Alt+J - Remove Virtual Desktop
+- **Left:** Meta+Alt+Shift+H - Move window to previous desktop
+- **Right:** Meta+Alt+Shift+L - Move window to next desktop
 
 #### Gesture Button (0xc3)
 - **Click:** Play/Pause media
